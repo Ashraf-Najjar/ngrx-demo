@@ -1,5 +1,5 @@
 import { createReducer, on, createSelector } from '@ngrx/store';
-import { BookModel, calculateBooksGrossEarnings } from '../book.model';
+import { BookModel } from '../book.model';
 import { BooksPageActions, BooksApiActions } from './index';
 import * as reducerHelper from './reducer.helper'
 
@@ -87,6 +87,6 @@ export const selectActiveBook = createSelector(
 );
 export const selectEarningsTotal = createSelector(
   selectAll,
-  calculateBooksGrossEarnings
+  reducerHelper.calculateBooksGrossEarnings
 )
   

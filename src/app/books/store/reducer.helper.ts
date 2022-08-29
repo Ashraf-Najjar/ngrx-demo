@@ -19,3 +19,9 @@ export const deleteBook = (books: BookModel[], bookId: string) =>
 export const findBook = (books: BookModel[], bookId: string | null)  =>
 
   books.find((book) => book.id === bookId) || null;
+
+export function calculateBooksGrossEarnings(books: BookModel[]) {
+  return books.reduce((total, book) => {
+    return total + parseInt(`${book.earnings}`, 10) || 0;
+  }, 0);
+}
