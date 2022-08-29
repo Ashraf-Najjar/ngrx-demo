@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "id": "5060327e-14fd-47a8-b9b0-5febc5f5c6c2",
+      "name": "Ashraf",
+      "earnings": "12",
+      "description": "ss"
+    },
+    {
+      "id": "10480e1c-63e1-47a3-b36f-842a638028fc",
+      "name": "Test",
+      "earnings": "1500",
+      "description": "just a test 2"
+    },
+    {
+      "id": "08c45d2b-b80a-4050-87a1-864566206186",
+      "name": "ssd",
+      "earnings": "2",
+      "description": "a"
+    }
+  ]
+}
